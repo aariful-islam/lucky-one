@@ -1,0 +1,30 @@
+
+.watchImage{
+    height: 286px;
+    width: 286px;
+}
+.watchDetails{
+    height: 550px;
+    width: 320px;
+    border: 1px solid gray;
+    display: grid;
+    margin-bottom: 20px;
+    position: relative;
+}
+.addToCartBtn{
+    border: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.watchName{
+    margin-top: -40px;
+    text-align: center;
+}
+.watchPrice{
+    margin-top: -60px;
+    text-align: center;
+}
+.addToCartBtn:hover{
+    background-color: orange;
+}
