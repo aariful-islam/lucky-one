@@ -1,0 +1,57 @@
+[
+    {
+        "id":"1",
+        "name":"Wavefun Aidig S",
+        "price":"2700",
+        "img":"images/Wavefun-Aidig-S.jpg"
+    },
+    {
+        "id":"2",
+        "name":"VFIT",
+        "price":"3200",
+        "img":"images/VFIT.jpg"
+    },
+    {
+        "id":"3",
+        "name":"OnePlus",
+        "price":"12000",
+        "img":"images/oneplus.jpg"
+    },
+    {
+        "id":"4",
+        "name":"Samsung Active-2",
+        "price":"16500",
+        "img":"images/samsumg-active2.jpeg"
+    },
+    {
+        "id":"5",
+        "name":"MI Watch",
+        "price":"93000",
+        "img":"images/Mi-Watch.jpg"
+    },
+    {
+        "id":"6",
+        "name":"Mi Band-6",
+        "price":"3500",
+        "img":"images/mi-band-6.jpg"
+    },
+    {
+        "id":"7",
+        "name":"Colmi p28 plus",
+        "price":"2500",
+        "img":"images/colmi-p28-plus.jpg"
+    },
+    {
+        "id":"8",
+        "name":"Mibro Lite",
+        "price":"3200",
+        "img":"images/mibro-lite-01.jpg"
+    },
+    {
+        "id":"9",
+        "name":"T68 watch",
+        "price":"2200",
+        "img":"images/T68-Pro.png"
+    }
+
+]
