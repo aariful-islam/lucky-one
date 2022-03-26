@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
+    margin-top: 100px;
 }
 .shop{
     display:grid;
@@ -10,6 +11,7 @@
 }
 .header{
     text-align: center;
+    background-color: rgb(158, 158, 185);
 }
 
 @media (max-width: 668px){
@@ -17,4 +19,9 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+}
+.cart{
+    background-color: rgb(214, 200, 200);
+    text-align: center;
+   
 }
