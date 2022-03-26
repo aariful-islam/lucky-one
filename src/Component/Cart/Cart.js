@@ -6,6 +6,7 @@ const Cart = (props) => {
     const {name}=props.cart
     
     
+    
 
     
     return (

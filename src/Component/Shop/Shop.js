@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+
 import Cart from '../Cart/Cart';
 
 
@@ -9,10 +10,7 @@ import './Shop.css'
 const Shop = () => {
     const [watches, setWatches] = useState([])
     const [cart, setCart] = useState([])
-    
-
-
-    
+    const [random,setRandom]=useState([])
     
 
     useEffect(() => {
@@ -26,13 +24,12 @@ const Shop = () => {
         
         setCart(newcart);
     }
-    const abc=()=>{
+    const handleRandom=()=>{
        const newcart=cart
         const names=(newcart.map(newName=>newName.name))
-        const a= names[Math.floor(Math.random()*names.length)];
-        
-        console.log(a)
-       // return a;
+        const randomWatch= names[Math.floor(Math.random()*names.length)];
+        setRandom(randomWatch);
+       
     }
     
    
@@ -79,9 +76,13 @@ const Shop = () => {
                     
                     
                     
-                    <button onClick={abc}> 
+                    <button onClick={handleRandom}> 
                         <p>Choose one watch</p>
                     </button> <br />
+                    <h1> 
+                    {random}
+
+                    </h1>    
                     <button onClick={reset}>
                         <p>RESET Item</p>
                     </button>
